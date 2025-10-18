@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section img {
+    background: linear-gradient(#3C3B3F, #605C3C);
+    width: 80vw;
+    height: 400px;
+    margin: 20px 130px;
+    position: relative;
+}
+
+div>img {
+    width: 160px;
+    height: 160px;
+    background: greenyellow;
+    border-radius: 100%;
+    position: absolute;
+    animation: ballanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ballanimation {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    20% {
+        top: 89%;
+        left: 15%;
+    }
+
+    40% {
+        top: 0;
+        left: 30%;
+    }
+
+    60% {
+        top: 89%;
+        left: 50%;
+    }
+
+    80% {
+        top: 0;
+        left: 75%;
+    }
+
+    100% {
+        top: 100%;
+        left: 130.8%;
+    }
+
+}
