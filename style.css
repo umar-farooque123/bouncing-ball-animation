@@ -7,7 +7,7 @@
 section img {
     background: linear-gradient(#3C3B3F, #605C3C);
     width: 80vw;
-    height: 400px;
+    height: 600px;
     margin: 20px 130px;
     position: relative;
 }
@@ -19,7 +19,7 @@ div>img {
     border-radius: 100%;
     position: absolute;
     animation: ballanimation;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -31,8 +31,9 @@ div>img {
     }
 
     20% {
-        top: 89%;
-        left: 15%;
+        top: 69%;
+        left: 10%;
+        
     }
 
     40% {
@@ -41,18 +42,18 @@ div>img {
     }
 
     60% {
-        top: 89%;
-        left: 50%;
+        top: 69%;
+        left: 40%;
     }
 
     80% {
         top: 0;
-        left: 75%;
+        left: 55%;
     }
 
     100% {
         top: 100%;
-        left: 130.8%;
+        left: 80%;
     }
 
 }
