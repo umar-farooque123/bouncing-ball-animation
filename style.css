@@ -7,7 +7,7 @@
 section img {
     background: linear-gradient(#3C3B3F, #605C3C);
     width: 80vw;
-    height: 600px;
+    height: 800px;
     margin: 20px 130px;
     position: relative;
 }
@@ -57,3 +57,4 @@ div>img {
     }
 
 }
+
